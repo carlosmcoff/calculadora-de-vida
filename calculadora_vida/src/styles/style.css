@@ -1,0 +1,81 @@
+body {
+  background-color: #343333; /* Fundo cinza */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura da tela inteira */
+  margin: 0; /* Remove a margem padrão do body */
+}
+
+#cont-all {
+  background-color: white; /* Retângulo branco */
+  padding: 50px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para o retângulo */
+  text-align: center; /* Centraliza texto e inputs */
+  width: 300px; /* Largura fixa do retângulo */
+}
+
+#table {
+  background-color: white; /* Retângulo branco */
+  padding: 50px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para o retângulo */
+  text-align: center; /* Centraliza texto e inputs */
+  width: 100%; /* Largura total da tela */
+  max-width: 500px; /* Define uma largura máxima */
+  margin-top: 10%; /* Espaçamento entre os dois blocos */
+}
+
+ul {
+  list-style-type: none; /* Remove os marcadores padrão da lista */
+  padding: 0; /* Remove o padding padrão da lista */
+  margin: 0; /* Remove a margem padrão da lista */
+  display: flex; /* Usa o flexbox para alinhar os itens */
+  justify-content: space-evenly; /* Espaça os itens igualmente */
+  flex-direction: column;
+}
+
+li {
+  padding: 10px; /* Espaçamento ao redor dos itens */
+  margin: 10px;
+  background-color: #f1f1f1; /* Cor de fundo para visualização */
+  border-radius: 4px; /* Bordas arredondadas */
+}
+
+.test {
+  margin: 15px 0; /* Margem entre os elementos */
+}
+
+label {
+  display: block; /* Faz com que o label ocupe toda a linha */
+  margin-bottom: 5px; /* Espaçamento abaixo do label */
+  font-size: 17px;
+}
+
+select {
+  width: 120px;
+  text-align: center;
+}
+input {
+  width: 120px;
+  text-align: center;
+}
+button {
+  width: 120px;
+  text-align: center;
+  background-color: rgb(112, 20, 197);
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  height: 25px;
+  margin: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(69, 7, 128);
+  color: #fff;
+  transition: 0.25s;
+}
